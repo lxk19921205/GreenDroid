@@ -357,7 +357,8 @@ public class GDActivity extends Activity implements ActionBarActivity {
 
     private OnActionBarListener mActionBarListener = new OnActionBarListener() {
         public void onActionBarItemClicked(int position) {
-            if (position == OnActionBarListener.HOME_ITEM) {
+        	//永远不会进入if，可自定义HOME_ITEM
+            if (false && position == OnActionBarListener.HOME_ITEM) {
 
                 final GDApplication app = getGDApplication();
                 switch (mActionBarType) {

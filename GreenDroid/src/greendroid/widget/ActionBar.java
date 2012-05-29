@@ -144,7 +144,7 @@ public class ActionBar extends LinearLayout {
         mHomeDrawable = a.getDrawable(R.styleable.ActionBar_homeDrawable);
         mMaxItemsCount = a.getInt(R.styleable.ActionBar_maxItems, 3);
         if (mHomeDrawable == null) {
-            mHomeDrawable = new ActionBarDrawable(context, R.drawable.gd_action_bar_home);
+            mHomeDrawable = new ActionBarDrawable(context, R.drawable.gd_action_bar_list);
         }
 
         int layoutID;

@@ -401,5 +401,14 @@ public class ActionBar extends LinearLayout {
         }
 
     };
+    
+    /**
+     * 让调用者可获取HomeButton，从而使quickaction可以在home button上弹出
+     * @author IRainbow5
+     */
+    public View getHomeButton()
+    {
+    	return mHomeButton;
+    }
 
 }
